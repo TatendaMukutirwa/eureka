@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class CarClass:
 
     def __init__(self, model, color, currspeed, maxSpeed):
@@ -31,3 +32,24 @@ class CarClass:
 car = CarClass("Ferrari", "yellow", 0, 200)
 car1 = car
 print(car1.maxSpeed)
+=======
+class Car:
+    def __init__(self, year, make):
+        self.__year_model = year
+        self.__make = make
+        self.__speed = 0
+
+    def accelerate(self):
+        self.__speed += 5
+        return accelerate()
+
+    def brake(self):
+        self.__speed -= 5
+        return brake()
+
+    def get_speed(self):
+        return self.__speed
+    
+
+    my_car = car.Car(2015, "Vauxhall")
+>>>>>>> 0b84778a3658bf655b726ba595e9457aa2873eb2
